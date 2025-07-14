@@ -2,6 +2,9 @@ import React from "react";
 import './Auth.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import soccerBall from '../assets/soccer-ball.svg';
+
+
 
 function AuthForm(){
     return (
@@ -38,7 +41,7 @@ function AuthForm(){
                 <p className="signin-link">I'm already a member! &nbsp; <a href="#">Sign In</a></p>
             </div>
             <div className="auth-right">
-                <img src="/soccer-ball.svg" alt="Soccer Ball Logo" width="90" />
+                <img src={soccerBall} alt="Soccer Ball" width="90" />
                 <h1>Soccer Ball</h1>
                 <p>Already have an account?</p>
                 <button className="signin-btn">Sign In</button>
