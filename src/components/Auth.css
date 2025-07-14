@@ -1,0 +1,202 @@
+.page-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6; /* optional */
+}
+
+/* Card-like container */
+.auth-container {
+  display: flex;
+  width: 800px;
+  height: 600px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+/*Left Side*/
+.auth-left{
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: white;
+    min-width: 300px;
+}
+.auth-left h2 {
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+}
+.auth-left p {
+  color: rgb(95, 95, 95);
+  margin: 5px 0 10px 0; /* top, right, bottom, left */
+  font-size: 15px;
+}
+.auth-left label {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ccc;
+}
+.auth-left input{
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  /* margin: 8px 0; */
+  color: #b6b5b5;
+  border: none;               /* remove all borders */
+  border-bottom: 1px solid #ccc; /* keep only bottom */
+  background: transparent;    /* optional: remove background if needed */
+  outline: none;              /* optional: remove blue outline on focus */
+  transition: border-color 0.3s;
+}
+
+.signup-btn{
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #8da89d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #7b988b;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.or-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically (if in a flex parent) */
+  gap: 15px;
+}
+
+/* Base social button style */
+.social {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+/* Facebook specific style */
+.facebook {
+  background-color: #3b5998;
+}
+
+/* Twitter specific style */
+.twitter {
+  background-color: #1da1f2;
+}
+
+.facebook:hover {
+  background-color: #2d4373; /* darker Facebook blue */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.twitter:hover {
+  background-color: #0d95e8; /* darker Twitter blue */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+
+.signin-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.signin-link  a {
+  color: #8da89d;      
+  text-decoration: none; 
+}
+
+.signin-link  a:hover {
+  color: #6d8b80;       
+  text-decoration: underline; 
+}
+
+/*Right Side*/
+.auth-right{
+    flex: 1;
+    background-color: #8da89d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    min-width: 300px;  
+    text-align: center;  
+}
+.auth-right h1{
+    padding: 0;
+    margin: 0;
+}
+.signin-btn{
+    padding: 10px 20px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.signin-btn:hover {
+  background-color: white;
+  color: #8da89d;
+  transition: all 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .auth-container {
+    flex-direction: column;
+  }
+
+  .auth-left, .auth-right {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .auth-left input,
+  .signup-btn {
+    max-width: 100%;
+  }
+
+  .auth-right {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
