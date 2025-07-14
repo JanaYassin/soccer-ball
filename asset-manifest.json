@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/soccer-ball/static/css/main.fccbdb26.css",
+    "main.js": "/soccer-ball/static/js/main.9349ee3f.js",
+    "static/js/453.b3dcd403.chunk.js": "/soccer-ball/static/js/453.b3dcd403.chunk.js",
+    "index.html": "/soccer-ball/index.html",
+    "main.fccbdb26.css.map": "/soccer-ball/static/css/main.fccbdb26.css.map",
+    "main.9349ee3f.js.map": "/soccer-ball/static/js/main.9349ee3f.js.map",
+    "453.b3dcd403.chunk.js.map": "/soccer-ball/static/js/453.b3dcd403.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fccbdb26.css",
+    "static/js/main.9349ee3f.js"
+  ]
+}
