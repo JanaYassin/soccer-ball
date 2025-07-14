@@ -26,7 +26,7 @@ function AuthForm(){
                 <label htmlFor="confirmPassword">Confirm Password</label>
                 <input type="password" id="confirmPassword" placeholder="Confirm Password"/>
                 <button className="signup-btn">Sign Up</button>
-                <p class="or-text">
+                <p className="or-text">
                 <span>or</span><br/>
                 <span>Signup with</span>
                 </p>
