@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/soccer-ball/static/css/main.fccbdb26.css",
-    "main.js": "/soccer-ball/static/js/main.8c1f945a.js",
+    "main.css": "/soccer-ball/static/css/main.ec4706ce.css",
+    "main.js": "/soccer-ball/static/js/main.f7d6cb5d.js",
     "static/js/453.b3dcd403.chunk.js": "/soccer-ball/static/js/453.b3dcd403.chunk.js",
     "static/media/soccer-ball.svg": "/soccer-ball/static/media/soccer-ball.186ddfcc5dd6750eed9ea90bf8eab055.svg",
     "index.html": "/soccer-ball/index.html",
-    "main.fccbdb26.css.map": "/soccer-ball/static/css/main.fccbdb26.css.map",
-    "main.8c1f945a.js.map": "/soccer-ball/static/js/main.8c1f945a.js.map",
+    "main.ec4706ce.css.map": "/soccer-ball/static/css/main.ec4706ce.css.map",
+    "main.f7d6cb5d.js.map": "/soccer-ball/static/js/main.f7d6cb5d.js.map",
     "453.b3dcd403.chunk.js.map": "/soccer-ball/static/js/453.b3dcd403.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fccbdb26.css",
-    "static/js/main.8c1f945a.js"
+    "static/css/main.ec4706ce.css",
+    "static/js/main.f7d6cb5d.js"
   ]
 }
